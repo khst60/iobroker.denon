@@ -1,18 +1,18 @@
 {
     "common": {
-        "name":           	"denon",
-        "version":          "0.0.1",
-        "title":            "Denon Adapter",
+        "name":         "denon",
+        "version":      "0.0.1",
+        "title":        "Denon Adapter",
         "desc":             "Javascript/Node.js based Denon adapter",
         "platform":         "Javascript/Node.js",
         "mode":             "daemon",
         "icon":             "denon.png",
         "loglevel":         "debug",
-		"keywords":         ["denon"],
+	"keywords":         ["denon"],
         "main":             "denon.js",
         "nondeletable":     true,
         "type":             "hardware",
-		"authors": 			["karl-heinz steffens <karl-heinz.steffens@web.de>"],
+	"authors": 	["karl-heinz steffens <karl-heinz.steffens@web.de>"],
         "license":          "MIT",
         "readme":           "",
         "extIcon":          ""
