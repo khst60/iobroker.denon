@@ -1,0 +1,211 @@
+{
+    "common": {
+        "name":           	"denon",
+        "version":          "0.0.1",
+        "title":            "Denon Adapter",
+        "desc":             "Javascript/Node.js based Denon adapter",
+        "platform":         "Javascript/Node.js",
+        "mode":             "daemon",
+        "icon":             "denon.png",
+        "loglevel":         "debug",
+		"keywords":         ["denon"],
+        "main":             "denon.js",
+        "nondeletable":     true,
+        "type":             "hardware",
+		"authors": 			["karl-heinz steffens <karl-heinz.steffens@web.de>"],
+        "license":          "MIT",
+        "readme":           "",
+        "extIcon":          ""
+    },
+	
+    "native": {
+		"host":		"192.168.178.99"
+    },
+	
+    "objects": [
+	],
+	
+	"instanceObjects": [
+	{
+		"_id": 	"power",
+		"type": "state",
+		"common": {
+			"name": 	"Power state",
+			"type": 	"boolean",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR power state boolean"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"power2",
+		"type": "state",
+		"common": {
+			"name": 	"Power state zone 2",
+			"type": 	"boolean",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR power state zone 2 boolean"
+		},
+		"native": {}
+    },
+			"_id": 	"mute",
+		"type": "state",
+		"common": {
+			"name": 	"Mute",
+			"type": 	"boolean",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR mute state boolean"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"mute2",
+		"type": "state",
+		"common": {
+			"name": 	"Mute zone 2",
+			"type": 	"boolean",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR mute state zone 2 boolean"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonPower",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR power state",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR power state"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonPower2",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR power state zone 2",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR power state zone 2"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonInput",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR input select",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR input select"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonInput2",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR input select zone 2",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR input select zone 2"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonMute",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR mute",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR mute"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonMute2",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR mute zone 2",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR mute zone 2"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonVolume",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR volume",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR volume"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonVolume2",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR volume zone 2",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR volume zone 2"
+		},
+		"native": {}
+    },
+    {
+		"_id": 	"denonSound",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR sound mode",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR sound mode"
+		},
+		"native": {}
+    },
+	{
+		"_id": 	"denonSound2",
+		"type": "state",
+		"common": {
+			"name": 	"Denon-AVR sound mode zone 2",
+			"type": 	"string",
+			"role": 	"message",
+			"read": 	true,
+			"write": 	true,
+			"desc": 	"Denon-AVR sound mode zone 2"
+		},
+		"native": {}
+    }
+    ]
+}
