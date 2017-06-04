@@ -52,6 +52,7 @@
 		},
 		"native": {}
     },
+	{
 			"_id": 	"mute",
 		"type": "state",
 		"common": {
