@@ -1,4 +1,4 @@
-![Logo](img/denon.png)
+![Logo](doc/denon.png)
 # ioBroker.denon
 
 This adapter allows control of DENON AVRs using TELNET port 23.
